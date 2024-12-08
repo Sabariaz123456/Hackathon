@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-pattern': "url('/assets/imgs/img9.jpeg')", // Add your custom image path
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
       },
     },
   },
