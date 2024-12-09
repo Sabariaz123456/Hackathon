@@ -4,7 +4,6 @@ import Header from "@/app/components/Header";
 import TextData from "@/app/components/TextData";
 import productData from "@/utils/productData";
 import Image from "next/image";
-// import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -14,11 +13,11 @@ const page = () => {
       <Header />
 
       <div className="w-full flex justify-center my-6">
-        <Image src="/assets/Images/banner5.png" alt="" />
+        <Image src="/assets/imgs/banner5.png" alt="" />
         {/* <Image alt='' height={} width={}> */}
       </div>
       <div>
-        <Image src="/assets/Images/filter.png" alt="" />
+        <Image src="/assets/imgs/filter.png" alt="" />
       </div>
 
       <div className="flex justify-center items-center flex-wrap gap-4 my-20">

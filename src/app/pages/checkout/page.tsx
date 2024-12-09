@@ -11,7 +11,7 @@ const Checkout = () => {
     <div>
         <Header/>
         <div>
-       <Image src="/assets/Images/checkout.png"  layout="responsive"
+       <Image src="/assets/imgs/checkout.png"  layout="responsive"
         width={100}
          height={500} alt="" />
       </div>

@@ -16,7 +16,7 @@ const TopProducts = () => {
     </div>
       <div className='flex justify-center gap-4 flex-wrap'>
        {
-        productData.map((item) => {
+        productData.slice(0,4).map((item) => {
             const {title,imageUrl,price,id} = item
            
             
